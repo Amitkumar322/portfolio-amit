@@ -267,7 +267,7 @@ export default function Hero() {
               >
                 View Projects <FaArrowRight size={14} />
               </button>
-              
+              <a href='/Amit kumar-(web developer).pdf' download>
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="btn btn-red-outline px-4 py-3 font-weight-bold interactive-card"
@@ -276,8 +276,9 @@ export default function Hero() {
                   fontSize: '0.95rem'
                 }}
               >
-                Contact Me
+                Download Resume
               </button>
+              </a>
             </motion.div>
           </div>
 

@@ -104,7 +104,8 @@ export default function Contact() {
                 Let's discuss your project
               </h3>
               <p className="text-muted-custom mb-5" style={{ color: '#A0A0A0', fontSize: '1.05rem', lineHeight: '1.8' }}>
-                Have an idea for a custom React app, dynamic WordPress portal, or need help optimizing your landing pages for organic SEO and faster page speeds? Reach out, and let's craft something premium together.
+                Have an idea for a custom React app, dynamic WordPress portal, or need help optimizing your landing pages for organic SEO and faster page speeds? Reach out, and let's craft something premium together.<br/><br/>
+                Till now Form is not working contact me on email and phone number
               </p>
 
               {/* Info grid */}
@@ -164,7 +165,7 @@ export default function Contact() {
                       My Location
                     </h4>
                     <span className="text-white font-weight-bold" style={{ fontSize: '1.05rem' }}>
-                      {personalInfo.location}
+                      {personalInfo.location}<br/>+91 8284863194
                     </span>
                   </div>
                 </div>

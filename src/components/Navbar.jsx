@@ -129,7 +129,7 @@ export default function Navbar() {
               ))}
               <li className="nav-item ms-2">
                 <a 
-                  href="#contact" 
+                  href="/Amit kumar-(web developer).pdf" 
                   onClick={(e) => {
                     e.preventDefault();
                     scrollToSection('contact');
@@ -141,8 +141,9 @@ export default function Navbar() {
                     fontSize: '0.85rem',
                     letterSpacing: '1px'
                   }}
+                  download
                 >
-                  Hire Me
+                  Download Resume
                 </a>
               </li>
             </ul>
@@ -208,7 +209,7 @@ export default function Navbar() {
                     fontSize: '0.9rem'
                   }}
                 >
-                  Hire Me
+                  Download Resume
                 </a>
               </li>
             </ul>
