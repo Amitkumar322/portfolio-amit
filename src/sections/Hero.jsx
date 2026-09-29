@@ -233,7 +233,7 @@ export default function Hero() {
                 className="text-white-50 font-weight-bold mb-4"
                 style={{ fontSize: 'calc(1.2rem + 0.5vw)', fontWeight: '600' }}
               >
-                Frontend & WordPress Developer
+                React.js & WordPress Developer
               </h2>
             </motion.div>
 
@@ -267,7 +267,7 @@ export default function Hero() {
               >
                 View Projects <FaArrowRight size={14} />
               </button>
-              <a href='/Amit kumar-(web developer).pdf' download>
+              <a href='/Amit_kumar_Resume.pdf' download>
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="btn btn-red-outline px-4 py-3 font-weight-bold interactive-card"
@@ -330,8 +330,8 @@ export default function Hero() {
                     &nbsp;&nbsp;name: <span style={{ color: '#FFDF6C' }}>'Amit Kumar'</span>,<br />
                     &nbsp;&nbsp;role: <span style={{ color: '#FFDF6C' }}>'Frontend & WordPress'</span>,<br />
                     &nbsp;&nbsp;skills: [<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;<span style={{ color: '#61DAFB' }}>'React'</span>, <span style={{ color: '#21759B' }}>'WordPress'</span>, <span style={{ color: '#777BB4' }}>'PHP'</span>,<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;<span style={{ color: '#FF3B3B' }}>'Html'</span>, <span style={{ color: '#61DAFB' }}>'GSAP'</span>, <span style={{ color: '#FF5C5C' }}>'CSS'</span><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style={{ color: '#61DAFB' }}>'React'</span>, <span style={{ color: '#21759B' }}>'WordPress'</span>, <span style={{ color: '#777BB4' }}>'PHP'</span><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span style={{ color: '#FF3B3B' }}>'Html'</span>, <span style={{ color: '#61DAFB' }}>'GSAP'</span>, <span style={{ color: '#FF5C5C' }}>'CSS'</span>,<span style={{ color: '#777BB4' }}>'Mongo db'</span><br />
                     &nbsp;&nbsp;&nbsp;&nbsp;<span style={{ color: '#FF3B3B' }}>'JS'</span>, <span style={{ color: '#61DAFB' }}>'Bootstrap'</span>, <span style={{ color: '#FF5C5C' }}>'github'</span><br />
                     &nbsp;&nbsp;],<br />
                     &nbsp;&nbsp;passion: <span style={{ color: '#00E676' }}>'Clean Code & Premium UI'</span>,<br />

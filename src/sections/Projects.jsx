@@ -104,8 +104,8 @@ export default function Projects() {
                   <motion.img 
                     src={project.image} 
                     alt={project.title} 
-                    className="w-100 h-100 object-fit-cover"
-                    style={{ objectFit: 'cover' }}
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover', objectPosition: 'top' }}
                     whileHover={{ scale: 1.08 }}
                     transition={{ duration: 0.4 }}
                   />

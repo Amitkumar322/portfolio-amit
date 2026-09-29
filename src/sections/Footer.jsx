@@ -29,10 +29,10 @@ export default function Footer() {
               onClick={scrollToTop}
               style={{ fontSize: '1.4rem', fontWeight: '800', letterSpacing: '1px' }}
             >
-              AMIT<span style={{ color: '#FF3B3B' }}>.</span>KUMAR
+              AMIT<span style={{ color: '#FF3B3B' }}>.</span>CODER
             </a>
             <p className="text-white-50 mt-2 mb-0" style={{ fontSize: '0.85rem' }}>
-              Frontend & WordPress Developer
+              React.js & WordPress Developer
             </p>
           </div>
 

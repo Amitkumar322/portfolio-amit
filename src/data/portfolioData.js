@@ -73,38 +73,38 @@ export const projects = [
   {
     id: "chennai-maratha",
     title: "Chennai Maratha",
-    description: "A premium restaurant website featuring custom menus, booking integrations, and stunning animations that elevate the culinary brand.",
+    description: "A premium restaurant website featuring custom menus, Franchisebooking integrations, and stunning animations that elevate the culinary brand.",
     tech: ["Wordpress", "Html", "JS", "CSS","php"],
     liveUrl: "https://www.chennaimaratha.com/",
-    githubUrl: "https://github.com",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" // Premium placeholder
+    githubUrl: "https://github.com/Amitkumar322",
+    image: "/Images/chennaimaratha.png" 
   },
   {
     id: "tht-global-consulting",
-    title: "THT Global Consulting",
-    description: "Corporate consulting platform showcasing financial services, custom calculators, case studies, and corporate branding with a high-end glassmorphism design.",
-    tech: ["WordPress", "Elementor", "Bootstrap"],
-    liveUrl: "https://www.thtglobalconsulting.com/",
-    githubUrl: "https://github.com",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+    title: "Tripzo-ai",
+    description: "AI-powered travel platform that turns a simple form into a personalized itinerary — built with React, Gemini API, and serverless functions.",
+    tech: ["React.js", "Gemini API", "Netlify Serverless Functions", "Bootstrap", "JavaScript (ES6+)" ,"GSAP"],
+    liveUrl: "https://tripzo-ai.netlify.app/",
+    githubUrl: "https://github.com/Amitkumar322",
+    image: "/Images/tripzoai.png"
   },
   {
     id: "79exp",
     title: "79EXP",
-    description: "An interactive, experiential travel portal allowing users to book unique expeditions, complete with complex filters and high-performance image rendering.",
-    tech: ["React.js", "GSAP", "Bootstrap", "CSS Modules"],
+    description: "A premium, single-scroll landing page crafted for a luxury expedition brand — built for conversions with a minimal, high-end feel.",
+    tech: ["Wordpress", "Html", "JS", "CSS","php"],
     liveUrl: "https://www.79exp.com",
-    githubUrl: "https://github.com",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    githubUrl: "https://github.com/Amitkumar322",
+    image: "/Images/79exp.png"
   },
   {
     id: "personal-portfolio",
-    title: "Personal Portfolio",
-    description: "A premium, fully interactive developer portfolio utilizing custom canvas particles, scroll triggers, custom cursor, and responsive Bootstrap modules.",
-    tech: ["React.js", "GSAP", "Framer Motion", "Bootstrap"],
-    liveUrl: "https://example.com/portfolio",
-    githubUrl: "https://github.com",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+    title: "Worlds Fact",
+    description: "A dynamic React application with live API integration and real-time data rendering, built on clean, component-based architecture.",
+    tech: ["React.js", "GSAP", "API integration", "Bootstrap"],
+    liveUrl: "https://worldsfact.netlify.app/",
+    githubUrl: "https://github.com/Amitkumar322",
+    image: "/Images/worldsfact.png"
   }
 ];
 

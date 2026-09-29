@@ -34,7 +34,7 @@ export default function Navbar() {
     setIsOpen(false);
     const element = document.getElementById(id);
     if (element) {
-      const offset = 80; // height of navbar
+      const offset = 80;
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
       const elementPosition = elementRect - bodyRect;
@@ -71,7 +71,7 @@ export default function Navbar() {
             }}
             style={{ fontSize: '1.5rem', fontWeight: '800', letterSpacing: '1px' }}
           >
-            AMIT<span style={{ color: '#FF3B3B' }}>.</span>KUMAR
+            AMIT<span style={{ color: '#FF3B3B' }}>.</span>CODER
           </a>
 
           {/* Toggle Button for Mobile */}
@@ -129,7 +129,7 @@ export default function Navbar() {
               ))}
               <li className="nav-item ms-2">
                 <a 
-                  href="/Amit kumar-(web developer).pdf" 
+                  href="/Amit_kumar_Resume.pdf" 
                   onClick={(e) => {
                     e.preventDefault();
                     scrollToSection('contact');
@@ -197,7 +197,7 @@ export default function Navbar() {
               ))}
               <li className="mt-2">
                 <a 
-                  href="#contact" 
+                  href='/Amit_kumar_Resume.pdf' 
                   onClick={(e) => {
                     e.preventDefault();
                     scrollToSection('contact');
